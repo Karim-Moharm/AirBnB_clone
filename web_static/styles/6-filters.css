@@ -55,6 +55,27 @@
   bottom: 0;
 }
 
-.popover {
-  
+.popover{
+  background-color: #e2e0e03a;
+  position: absolute;
+  width: 215px;
+  left: 0px;
+  margin-top: 2px;
+  border: 1px #DDDDDD solid;
+  border-radius: 4px;
+}
+
+.locations:hover .popover,
+.amenities:hover .popover{
+  display: block;
+}
+
+.popover h2 {
+  background-color: #ff5a5f;
+  list-style-type: none;
+}
+
+.popover h2 li {
+  background-color: #ff5a5f;
+  list-style-type: none;
 }
