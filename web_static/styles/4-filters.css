@@ -1,7 +1,27 @@
 .filters {
-  background-color: #fff;
+  background-color: #ffffff;
   height: 70px;
   width: 100%;
   border: 1px #DDDDDD solid;
   border-radius: 4px;
+  position: relative;
+  right: 50%;
+  left: 50%;
+}
+
+.search-button {
+  background-color: #ff5a5f;
+  top: 10px;
+  font-size: 18px;
+  color: #ffffff;
+  height: 48px;
+  width: 20%;
+  position: absolute;
+  right: 30px;
+  border: none;
+  border-radius: 4px;
+}
+
+.search-button:hover {
+  opacity: 0.9;
 }
