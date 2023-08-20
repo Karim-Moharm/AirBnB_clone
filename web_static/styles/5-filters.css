@@ -28,18 +28,16 @@
 
 
 .locations {
-  padding: 0 0 0 45px;
+  padding: 0 0 0 50px;
   display: inline-block;
-  margin: 0 40px 0 0;
+  margin: 0 80px 0 0;
 
 }
 
 .amenities {
-  margin: 0px;
-  padding: 0px;
   position: absolute;
   display: inline-block;
-  margin: 0 0 0 40px;
+  margin: 0 0 0 50px;
 }
 
 .locations h4,
