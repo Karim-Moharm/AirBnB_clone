@@ -57,6 +57,7 @@
 
 .popover{
   background-color: #e2e0e03a;
+  display: none;
   position: absolute;
   width: 215px;
   left: 0px;
@@ -65,17 +66,31 @@
   border-radius: 4px;
 }
 
+.amenities .popover{
+  margin-left: -50px;
+}
 .locations:hover .popover,
 .amenities:hover .popover{
   display: block;
 }
 
-.popover h2 {
-  background-color: #ff5a5f;
+li {
   list-style-type: none;
+  font-size: 14px;
+  margin: 8px;
+  padding-left: 10px;
+  line-height: 15px;
+
 }
 
-.popover h2 li {
-  background-color: #ff5a5f;
-  list-style-type: none;
+.popover h2{
+  font-size: 16px;
+  line-height: 10px;
+}
+
+.locations li {
+  padding-bottom: 0px;
+  margin-top: 5px;
+  margin-left: -10px;
+  line-height: 15px;
 }
