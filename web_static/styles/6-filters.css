@@ -1,0 +1,56 @@
+.filters {
+  background-color: #ffffff;
+  height: 70px;
+  width: 100%;
+  border: 1px #DDDDDD solid;
+  border-radius: 4px;
+  position: relative;
+  right: 50%;
+  left: 50%;
+}
+
+.search-button {
+  background-color: #ff5a5f;
+  top: 10px;
+  font-size: 18px;
+  color: #ffffff;
+  height: 48px;
+  width: 20%;
+  position: absolute;
+  right: 30px;
+  border: none;
+  border-radius: 4px;
+}
+
+.search-button:hover {
+  opacity: 0.9;
+}
+
+
+.locations {
+  padding: 0 0 0 50px;
+  display: inline-block;
+  margin: 0 80px 0 0;
+
+}
+
+.amenities {
+  position: absolute;
+  display: inline-block;
+  margin: 0 0 0 50px;
+}
+
+.locations h4,
+.amenities h4 {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: -18px;
+}
+
+.vertical-line {
+  display: inline;
+  border-left: 1px solid #DDDDDD ;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
