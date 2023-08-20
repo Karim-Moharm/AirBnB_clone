@@ -26,22 +26,33 @@
   opacity: 0.9;
 }
 
+
 .locations {
-  padding-left: 45px;
+  padding: 0 0 0 45px;
   display: inline-block;
-  /* background-color: #ff5a5f; */
-  margin-right: 40px;
+  margin: 0 40px 0 0;
+
 }
 
 .amenities {
+  margin: 0px;
+  padding: 0px;
   position: absolute;
   display: inline-block;
-  /* background-color: aqua; */
-  margin-left: 40px;
+  margin: 0 0 0 40px;
 }
 
 .locations h4,
 .amenities h4 {
   font-weight: 400;
   font-size: 14px;
+  margin-top: -18px;
+}
+
+.vertical-line {
+  display: inline;
+  border-left: 1px solid #DDDDDD ;
+  position: absolute;
+  top: 0;
+  bottom: 0;
 }
