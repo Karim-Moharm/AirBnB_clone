@@ -57,18 +57,21 @@
 
 .popover{
   background-color: #e2e0e03a;
-  display: none;
+  /* display: none; */
   position: absolute;
   width: 215px;
   left: 0px;
   margin-top: 2px;
   border: 1px #DDDDDD solid;
   border-radius: 4px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .amenities .popover{
   margin-left: -50px;
 }
+
 .locations:hover .popover,
 .amenities:hover .popover{
   display: block;
@@ -80,12 +83,14 @@ li {
   margin: 8px;
   padding-left: 10px;
   line-height: 15px;
-
+  text-indent: -30px;
 }
 
 .popover h2{
   font-size: 16px;
   line-height: 10px;
+  text-indent: -15px;
+  /* padding-top: 30px; */
 }
 
 .locations li {
@@ -93,4 +98,9 @@ li {
   margin-top: 5px;
   margin-left: -10px;
   line-height: 15px;
+  text-indent: -30px;
+}
+
+.locations ul {
+  padding-bottom: 13px;
 }
