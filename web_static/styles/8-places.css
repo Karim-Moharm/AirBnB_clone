@@ -19,7 +19,8 @@
   left: 50%;
   top: -25px;
   height: inherit;
-  /* vertical-align: top; */
+  min-height: 300px;
+  vertical-align: top;
 }
 
 .places article h2 {
@@ -68,5 +69,43 @@ article h2 {
   height: 80px;
   border-top:  #DDDDDD 1px solid;
   border-bottom: #DDDDDD 1px solid;
+  /* background-color: #FF5A5F; */
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* flex-flow: row wrap; */
+  justify-content: center;
+
+}
+
+.max_guest {
+  background-image: url(../images/icon_group.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.number_bathrooms {
+  background-image: url(../images/icon_bath.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.number_rooms {
+  background-image: url(../images/icon_bed.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.max_guest,
+.number_bathrooms,
+.number_rooms {
+
+  /* margin-bottom: 100px; */
+
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: inherit;
 
 }
