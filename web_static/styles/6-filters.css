@@ -57,7 +57,7 @@
 
 .popover{
   background-color: #e2e0e03a;
-  /* display: none; */
+  display: none;
   position: absolute;
   width: 215px;
   left: 0px;
@@ -90,7 +90,6 @@ li {
   font-size: 16px;
   line-height: 10px;
   text-indent: -15px;
-  /* padding-top: 30px; */
 }
 
 .locations li {
