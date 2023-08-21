@@ -33,7 +33,6 @@ article h2 {
 }
 
 .price_by_night {
-  /* display: inline-block; */
   color: #FF5A5F;
   border: #FF5A5F solid 4px;
   border-radius: 100%;
@@ -55,3 +54,14 @@ article h2 {
 .price_by_night h4 {
   font-size: 30px;
 }
+
+.horizontal-line-1 {
+  border-bottom: 1px solid #ccc;
+  opacity: 0.55;
+  width: 90%;
+  position: absolute;
+  bottom: 370px;
+  right: 20px;
+}
+
+
