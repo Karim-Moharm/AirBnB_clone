@@ -19,7 +19,7 @@
   left: 50%;
   top: -25px;
   height: inherit;
-  min-height: 300px;
+  min-height: 400px;
   vertical-align: top;
 }
 
@@ -101,11 +101,23 @@ article h2 {
 .number_bathrooms,
 .number_rooms {
 
-  /* margin-bottom: 100px; */
+  /* width: calc(100% / 3); */
+  display: inline-block;
+  /* height: inherit; */
+  width: 100px;
+}
 
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: inherit;
+.user {
+  /* background-color: #FF5A5F; */
+  /* display: inline-block; */
+  position: relative;
+  right: 125px;
+  top: 20px;
+}
 
+.description {
+  /* background-color: #FF5A5F; */
+  margin-top: 30px; 
+  line-height: 1.5;
+  text-align: left;
 }
