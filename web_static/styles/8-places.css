@@ -9,7 +9,7 @@
 
 .places article {
   width: 390px;
-  height: 430px;
+  height: 400px;
   padding: 20px;
   margin: 20px;
   border: #FF5A5F 1px solid;
@@ -57,10 +57,10 @@ article h2 {
 
 .horizontal-line-1 {
   border-bottom: 1px solid #ccc;
-  opacity: 0.55;
+  opacity: 0.6;
   width: 90%;
   position: absolute;
-  bottom: 370px;
+  bottom: 340px;
   right: 20px;
 }
 
